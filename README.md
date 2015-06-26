@@ -14,7 +14,7 @@ meteor add 255kb:cordova-keyboard
 
 ## Usage
 
-You can either check the keyboard status by using the Session variable `isKeyboardVisible` or one of the two global templates `isKeyboardVisible` and `isKeyboardHidden`: 
+You can either check the keyboard status by using the Session variable `isKeyboardVisible` or the global template `isKeyboardVisible`: 
 
 
     Session.get('isKeyboardVisible');
@@ -25,9 +25,10 @@ Or
     
     {{/if}}
     
-    {{#if isKeyboardHidden}}
+    {{#unless isKeyboardVisible}}
     
-    {{/if}}
+    {{/unless}}
     
 ## Dependencies
 - com.ionic.keyboard@1.0.4
+
