@@ -1,6 +1,6 @@
 Package.describe({
     name: '255kb:cordova-keyboard',
-    version: '1.1.0',
+    version: '1.1.1',
     summary: 'Reactive keyboard status for Meteor Cordova apps.',
     git: 'https://github.com/255kb/cordova-keyboard',
     documentation: 'README.md'

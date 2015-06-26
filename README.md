@@ -32,3 +32,10 @@ Or
 ## Dependencies
 - com.ionic.keyboard@1.0.4
 
+## Changelog
+
+### v1.1.1:
+- default value to current keyboard state instead of false
+
+### v1.1.0:
+- remove unneeded global helper
