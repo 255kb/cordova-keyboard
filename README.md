@@ -30,9 +30,12 @@ Or
     {{/unless}}
     
 ## Dependencies
-- com.ionic.keyboard@1.0.4
+- com.ionic.keyboard@1.0.7
 
 ## Changelog
+
+### v1.2.0:
+- switch to new Cordova plugins repository for dependency
 
 ### v1.1.1:
 - default value to current keyboard state instead of false
